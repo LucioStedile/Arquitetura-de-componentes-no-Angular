@@ -1,0 +1,12 @@
+<div class="container justify-content-center">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <article class="user">
+                <img class="user__avatar" [src]="avatar">
+                <h1 class="user__name mt-3 mb-3">Oi, eu sou o {{name}}</h1>
+                    <input class="user__input input-group" type="text" placeholder="Choose a name..." ngModel="newName">
+                    <button class="user__button btn btn-primary" (click)="makeMeHero()">Make me badass!</button>
+            </article>
+        </div>
+    </div>
+</div>
